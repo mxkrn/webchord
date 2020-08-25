@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Webchord</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="row title justify-content-center">
+            
+        </div> -->
+        <div class="row justify-content-center">
+            <div id="chordDisplay"></div>
+            <canvas class="visualizer col-xs-12 col-md-8 col-xl-6" width="600" height="600"></canvas>
+        </div>
+        <a class="mute">
+            Mute
+        </a>
+        <div class="row justify-content-end">
+            <form class="controls">
+                <!-- <div>
+                    <label for="voice">Voice setting</label>
+                    <select id="voice" name="voice">
+                        <option value="off" select>Off</option>
+                    </select>
+                </div> -->
+                <div class="d-none">
+                    <label for="visual">Visualizer setting</label>
+                    <select id="visual" name="visual">
+                        <option value="frequencybars" selected>Frequency bars</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="templates/basic.js" type="module"></script>
+    <script src="scripts/achord.js" type="module"></script>
+    <script src="scripts/visualize.js" type="module"></script>
+    <script src="app.js" type="module"></script>
+</body>
+</html>

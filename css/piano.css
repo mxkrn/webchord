@@ -1,0 +1,75 @@
+#buttons{
+    display:inline-block;
+}
+  
+#playbacknotes {
+    display:block;
+    vertical-align:top;
+    margin-top: 50px;
+}
+  
+#notes {
+    font-size: 20px;
+}
+  
+#notebox {
+    vertical-align: top;
+    border: 2px solid black;
+    width: 560px;
+    height: 80px;
+    margin-top: 40px;
+    background-color: White;
+    display: inline-block;
+}
+  
+.whiteKeys {
+    border: 1px solid black;
+    width: 40px;
+    height: 160px;
+    display: inline-block;
+    background-color: White
+}
+
+#piano {
+    font-size: 0;
+}
+
+.blackKeys {
+    border: 1px solid black;
+    width: 27px;
+    height: 120px;
+    top: 507px;
+    background-color: Black;
+    position: absolute;
+}
+
+#black1 {
+    left: 26.5%;
+}
+#black2 {
+    left: 324px;
+}
+#black3 {
+    left: 405px;
+}
+#black4 {
+    left: 444px;
+}
+#black5 {
+    left: 485px;
+}
+#black6 {
+    left: 565px;
+}
+#black7 {
+    left: 605px;
+}
+#black8 {
+    left: 685px;
+}
+#black9 {
+    left: 725px;
+}
+#black10 {
+    left: 765px;
+}
